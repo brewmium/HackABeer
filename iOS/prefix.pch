@@ -1,0 +1,77 @@
+//
+//  prefix.pch
+//
+//  Created by Eric Hayes on 2/14/15.
+//  Copyright (c) 2015 Brewmium, LLC. All rights reserved.
+//
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+
+// my favorite macro - Just type "APP_DELEGATE;" Then you can do [d method]; tada
+#define APP_DELEGATE	AppDelegate * d = (AppDelegate *)[[UIApplication sharedApplication] delegate]
+
+// good for single references to the AppDelegate
+#define APPD			((AppDelegate *)[[UIApplication sharedApplication] delegate])
+
+
+#pragma mark - Feature Support
+
+
+#pragma mark - DEBUG Support
+
+
+#if DEBUG
+#define kSomeFutureSetting		(1)
+#define kShowAPILogs			(1)
+#define STARTUP_SIT_AND_WAIT	(1.0f)
+#define SKIP_LOGIN				(1)
+
+
+#elif STAGING
+#define kSomeFutureSetting		(1)
+#define kShowAPILogs			(0)
+#define STARTUP_SIT_AND_WAIT	(2.0f)
+#define SKIP_LOGIN				(0)
+debug me
+
+
+#else	// not debug or staging
+#define kSomeFutureSetting		(0)
+#define kShowAPILogs			(0)
+#define STARTUP_SIT_AND_WAIT	(2.0f)
+#define SKIP_LOGIN				(0)
+
+// Put Production Exceptions here, they will generate warnings please!!
+
+
+#if SKIP_LOGIN
+#error SKIP_LOGIN is ON in PRODUCTION BUILD!
+#endif
+
+#endif		// !DEBUG
+
+
+
+// shared constants
+#import "AppConstants.h"
+#import "NetworkAPIConstants.h"
+
+// helpers
+#import "UIView+brewmium.h"
+#import "NSArray+brewmium.h"
+#import "NSDictionary+brewmium.h"
+#import "NSObject+brewmium.h"
+#import "NSString+brewmium.h"
+
+#import "Device.h"
+#import "FFLog.h"
+#import "RectUtils.h"
+#import "AppHelpers.h"
+
+// common for all to see
+#import "AppDelegate.h"
+
+#endif		// __OBJC__
