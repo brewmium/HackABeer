@@ -45,9 +45,6 @@ typedef NS_ENUM(NSInteger, DisplayRole) {
 #define RelayrAppSecret @"VirEROjdpvqh9.ebYnAYC4Ax.rspkAOB"
 #define RelayrAppRedirectURI    @"http://localhost"
 
-#define kWunderLogin @"chris@slbsoftware.com"
-#define kWunderPassword @"nun1fest"
-
 - (void)viewDidLayoutSubviews;
 {
 	if ( !once ) {

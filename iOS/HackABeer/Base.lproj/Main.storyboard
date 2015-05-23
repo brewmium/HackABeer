@@ -18,7 +18,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" id="r31-Yg-jtG" userLabel="tap">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="454"/>
+                                        <rect key="frame" x="1000" y="0.0" width="320" height="454"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Beers Served:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qRE-Ve-mMf">
@@ -141,7 +141,7 @@
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
                                     <view contentMode="scaleToFill" id="MHC-df-hRV" userLabel="about">
-                                        <rect key="frame" x="1000" y="0.0" width="320" height="454"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="454"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Team:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0cQ-KV-fFf">
@@ -245,7 +245,7 @@
                                                     <action selector="showTapAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jnl-iX-naq"/>
                                                 </connections>
                                             </button>
-                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="loowit_logo_app.png" id="4vC-K0-4Yy">
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="loowit_logo.png" id="4vC-K0-4Yy">
                                                 <rect key="frame" x="15" y="157" width="100" height="105"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
@@ -434,7 +434,6 @@
         <image name="flip.png" width="100" height="100"/>
         <image name="header.png" width="180" height="100"/>
         <image name="loowit_logo.png" width="91" height="100"/>
-        <image name="loowit_logo_app.png" width="100" height="105"/>
         <image name="pint4.png" width="100" height="100"/>
         <image name="simple_logo.png" width="300" height="122"/>
         <image name="uncorked_logo.png" width="300" height="122"/>

@@ -7,29 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0715D5221B113EE000B5EA87 /* app_icon_120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 0715D5171B113EE000B5EA87 /* app_icon_120x120.png */; };
+		0715D5231B113EE000B5EA87 /* app_icon_152x152.png in Resources */ = {isa = PBXBuildFile; fileRef = 0715D5181B113EE000B5EA87 /* app_icon_152x152.png */; };
+		0715D5241B113EE000B5EA87 /* app_icon_180x180.png in Resources */ = {isa = PBXBuildFile; fileRef = 0715D5191B113EE000B5EA87 /* app_icon_180x180.png */; };
+		0715D5251B113EE000B5EA87 /* app_icon_76x76.png in Resources */ = {isa = PBXBuildFile; fileRef = 0715D51A1B113EE000B5EA87 /* app_icon_76x76.png */; };
+		0715D5261B113EE000B5EA87 /* flip.png in Resources */ = {isa = PBXBuildFile; fileRef = 0715D51B1B113EE000B5EA87 /* flip.png */; };
+		0715D5271B113EE000B5EA87 /* header.png in Resources */ = {isa = PBXBuildFile; fileRef = 0715D51C1B113EE000B5EA87 /* header.png */; };
+		0715D5281B113EE000B5EA87 /* loowit_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0715D51D1B113EE000B5EA87 /* loowit_logo.png */; };
+		0715D5291B113EE000B5EA87 /* pint4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0715D51E1B113EE000B5EA87 /* pint4.png */; };
+		0715D52A1B113EE000B5EA87 /* simple_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0715D51F1B113EE000B5EA87 /* simple_logo.png */; };
+		0715D52B1B113EE000B5EA87 /* uncorked_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0715D5201B113EE000B5EA87 /* uncorked_logo.png */; };
+		0715D52C1B113EE000B5EA87 /* wunderbar_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0715D5211B113EE000B5EA87 /* wunderbar_logo.png */; };
+		0715D52E1B1142CE00B5EA87 /* electric_imp_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0715D52D1B1142CE00B5EA87 /* electric_imp_logo.png */; };
 		0771898E1B10CCD4002BB490 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0771898D1B10CCD4002BB490 /* main.m */; };
 		077189911B10CCD4002BB490 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 077189901B10CCD4002BB490 /* AppDelegate.m */; };
 		077189941B10CCD4002BB490 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 077189931B10CCD4002BB490 /* ViewController.m */; };
 		077189971B10CCD4002BB490 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 077189951B10CCD4002BB490 /* Main.storyboard */; };
 		077189991B10CCD4002BB490 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 077189981B10CCD4002BB490 /* Images.xcassets */; };
 		0771899C1B10CCD4002BB490 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0771899A1B10CCD4002BB490 /* LaunchScreen.xib */; };
-		077189C81B10DA53002BB490 /* alert.png in Resources */ = {isa = PBXBuildFile; fileRef = 077189B51B10DA53002BB490 /* alert.png */; };
-		077189C91B10DA53002BB490 /* bartender.png in Resources */ = {isa = PBXBuildFile; fileRef = 077189B61B10DA53002BB490 /* bartender.png */; };
-		077189CA1B10DA53002BB490 /* beer_keg.png in Resources */ = {isa = PBXBuildFile; fileRef = 077189B71B10DA53002BB490 /* beer_keg.png */; };
-		077189CB1B10DA53002BB490 /* beer_tap.png in Resources */ = {isa = PBXBuildFile; fileRef = 077189B81B10DA53002BB490 /* beer_tap.png */; };
-		077189CC1B10DA53002BB490 /* bell.png in Resources */ = {isa = PBXBuildFile; fileRef = 077189B91B10DA53002BB490 /* bell.png */; };
-		077189CD1B10DA53002BB490 /* boss.png in Resources */ = {isa = PBXBuildFile; fileRef = 077189BA1B10DA53002BB490 /* boss.png */; };
-		077189CE1B10DA53002BB490 /* electric_imp_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 077189BB1B10DA53002BB490 /* electric_imp_logo.png */; };
-		077189CF1B10DA53002BB490 /* flip.png in Resources */ = {isa = PBXBuildFile; fileRef = 077189BC1B10DA53002BB490 /* flip.png */; };
-		077189D01B10DA53002BB490 /* flowing.png in Resources */ = {isa = PBXBuildFile; fileRef = 077189BD1B10DA53002BB490 /* flowing.png */; };
-		077189D11B10DA53002BB490 /* happy.png in Resources */ = {isa = PBXBuildFile; fileRef = 077189BE1B10DA53002BB490 /* happy.png */; };
-		077189D21B10DA53002BB490 /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = 077189BF1B10DA53002BB490 /* Icon */; };
-		077189D31B10DA53002BB490 /* icons.psd in Resources */ = {isa = PBXBuildFile; fileRef = 077189C01B10DA53002BB490 /* icons.psd */; };
-		077189D41B10DA53002BB490 /* loowit_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 077189C11B10DA53002BB490 /* loowit_logo.png */; };
-		077189D51B10DA53002BB490 /* not_flowing.png in Resources */ = {isa = PBXBuildFile; fileRef = 077189C21B10DA53002BB490 /* not_flowing.png */; };
-		077189D61B10DA53002BB490 /* Resources.docx in Resources */ = {isa = PBXBuildFile; fileRef = 077189C31B10DA53002BB490 /* Resources.docx */; };
-		077189D71B10DA53002BB490 /* sad.png in Resources */ = {isa = PBXBuildFile; fileRef = 077189C41B10DA53002BB490 /* sad.png */; };
-		077189D91B10DA53002BB490 /* wunderbar_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 077189C61B10DA53002BB490 /* wunderbar_logo.png */; };
 		07718A4E1B10E957002BB490 /* Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 07718A2E1B10E957002BB490 /* Device.m */; };
 		07718A4F1B10E957002BB490 /* FFLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 07718A301B10E957002BB490 /* FFLog.m */; };
 		07718A501B10E957002BB490 /* NSArray+brewmium.m in Sources */ = {isa = PBXBuildFile; fileRef = 07718A321B10E957002BB490 /* NSArray+brewmium.m */; };
@@ -38,32 +33,10 @@
 		07718A541B10E957002BB490 /* NSString+brewmium.m in Sources */ = {isa = PBXBuildFile; fileRef = 07718A3A1B10E957002BB490 /* NSString+brewmium.m */; };
 		07718A561B10E957002BB490 /* RectUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 07718A3E1B10E957002BB490 /* RectUtils.m */; };
 		07718A591B10E957002BB490 /* UIView+brewmium.m in Sources */ = {isa = PBXBuildFile; fileRef = 07718A441B10E957002BB490 /* UIView+brewmium.m */; };
-		07718A6D1B10F2E1002BB490 /* bartender_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 07718A5F1B10F2E1002BB490 /* bartender_blue.png */; };
-		07718A6E1B10F2E1002BB490 /* boss_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 07718A601B10F2E1002BB490 /* boss_red.png */; };
-		07718A6F1B10F2E1002BB490 /* loader_bar_five.png in Resources */ = {isa = PBXBuildFile; fileRef = 07718A611B10F2E1002BB490 /* loader_bar_five.png */; };
-		07718A701B10F2E1002BB490 /* loader_bar_four.png in Resources */ = {isa = PBXBuildFile; fileRef = 07718A621B10F2E1002BB490 /* loader_bar_four.png */; };
-		07718A711B10F2E1002BB490 /* loader_bar_one.png in Resources */ = {isa = PBXBuildFile; fileRef = 07718A631B10F2E1002BB490 /* loader_bar_one.png */; };
-		07718A721B10F2E1002BB490 /* loader_bar_three.png in Resources */ = {isa = PBXBuildFile; fileRef = 07718A641B10F2E1002BB490 /* loader_bar_three.png */; };
-		07718A731B10F2E1002BB490 /* loader_bar_two.png in Resources */ = {isa = PBXBuildFile; fileRef = 07718A651B10F2E1002BB490 /* loader_bar_two.png */; };
-		07718A741B10F2E1002BB490 /* loowit_logo_app.png in Resources */ = {isa = PBXBuildFile; fileRef = 07718A661B10F2E1002BB490 /* loowit_logo_app.png */; };
-		07718A751B10F2E1002BB490 /* pint0.png in Resources */ = {isa = PBXBuildFile; fileRef = 07718A671B10F2E1002BB490 /* pint0.png */; };
-		07718A761B10F2E1002BB490 /* pint1.png in Resources */ = {isa = PBXBuildFile; fileRef = 07718A681B10F2E1002BB490 /* pint1.png */; };
-		07718A771B10F2E1002BB490 /* pint2.png in Resources */ = {isa = PBXBuildFile; fileRef = 07718A691B10F2E1002BB490 /* pint2.png */; };
-		07718A781B10F2E1002BB490 /* pint3.png in Resources */ = {isa = PBXBuildFile; fileRef = 07718A6A1B10F2E1002BB490 /* pint3.png */; };
-		07718A791B10F2E1002BB490 /* pint4.png in Resources */ = {isa = PBXBuildFile; fileRef = 07718A6B1B10F2E1002BB490 /* pint4.png */; };
-		07718A7A1B10F2E1002BB490 /* pint5.png in Resources */ = {isa = PBXBuildFile; fileRef = 07718A6C1B10F2E1002BB490 /* pint5.png */; };
-		07718A801B10F2E9002BB490 /* app_icon_120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 07718A7C1B10F2E9002BB490 /* app_icon_120x120.png */; };
-		07718A811B10F2E9002BB490 /* app_icon_152x152.png in Resources */ = {isa = PBXBuildFile; fileRef = 07718A7D1B10F2E9002BB490 /* app_icon_152x152.png */; };
-		07718A821B10F2E9002BB490 /* app_icon_180x180.png in Resources */ = {isa = PBXBuildFile; fileRef = 07718A7E1B10F2E9002BB490 /* app_icon_180x180.png */; };
-		07718A831B10F2E9002BB490 /* app_icon_76x76.png in Resources */ = {isa = PBXBuildFile; fileRef = 07718A7F1B10F2E9002BB490 /* app_icon_76x76.png */; };
-		07CA95051B10F9B8004DCE5A /* header.png in Resources */ = {isa = PBXBuildFile; fileRef = 07CA95041B10F9B8004DCE5A /* header.png */; };
 		07CA95091B10FF6A004DCE5A /* Relayr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07CA95061B10FB60004DCE5A /* Relayr.framework */; };
 		07CA950C1B10FFB9004DCE5A /* Relayr.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 07CA95061B10FB60004DCE5A /* Relayr.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		07CA95111B111F3A004DCE5A /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07CA950F1B111F3A004DCE5A /* Fabric.framework */; };
 		07CA95121B111F3A004DCE5A /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07CA95101B111F3A004DCE5A /* Crashlytics.framework */; };
-		07CA95141B112719004DCE5A /* electric_imp_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 07CA95131B112719004DCE5A /* electric_imp_logo.png */; };
-		07CA95171B112C19004DCE5A /* simple_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 07CA95151B112C19004DCE5A /* simple_logo.png */; };
-		07CA95181B112C19004DCE5A /* uncorked_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 07CA95161B112C19004DCE5A /* uncorked_logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +63,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0715D5171B113EE000B5EA87 /* app_icon_120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_120x120.png; sourceTree = "<group>"; };
+		0715D5181B113EE000B5EA87 /* app_icon_152x152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_152x152.png; sourceTree = "<group>"; };
+		0715D5191B113EE000B5EA87 /* app_icon_180x180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_180x180.png; sourceTree = "<group>"; };
+		0715D51A1B113EE000B5EA87 /* app_icon_76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_76x76.png; sourceTree = "<group>"; };
+		0715D51B1B113EE000B5EA87 /* flip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flip.png; sourceTree = "<group>"; };
+		0715D51C1B113EE000B5EA87 /* header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header.png; sourceTree = "<group>"; };
+		0715D51D1B113EE000B5EA87 /* loowit_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loowit_logo.png; sourceTree = "<group>"; };
+		0715D51E1B113EE000B5EA87 /* pint4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pint4.png; sourceTree = "<group>"; };
+		0715D51F1B113EE000B5EA87 /* simple_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = simple_logo.png; sourceTree = "<group>"; };
+		0715D5201B113EE000B5EA87 /* uncorked_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uncorked_logo.png; sourceTree = "<group>"; };
+		0715D5211B113EE000B5EA87 /* wunderbar_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wunderbar_logo.png; sourceTree = "<group>"; };
+		0715D52D1B1142CE00B5EA87 /* electric_imp_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = electric_imp_logo.png; sourceTree = "<group>"; };
 		077189881B10CCD4002BB490 /* HackABeer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackABeer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0771898C1B10CCD4002BB490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0771898D1B10CCD4002BB490 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -101,23 +86,6 @@
 		077189981B10CCD4002BB490 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0771899B1B10CCD4002BB490 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		077189A11B10CCD4002BB490 /* HackABeerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackABeerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		077189B51B10DA53002BB490 /* alert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alert.png; sourceTree = "<group>"; };
-		077189B61B10DA53002BB490 /* bartender.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bartender.png; sourceTree = "<group>"; };
-		077189B71B10DA53002BB490 /* beer_keg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beer_keg.png; sourceTree = "<group>"; };
-		077189B81B10DA53002BB490 /* beer_tap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beer_tap.png; sourceTree = "<group>"; };
-		077189B91B10DA53002BB490 /* bell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bell.png; sourceTree = "<group>"; };
-		077189BA1B10DA53002BB490 /* boss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boss.png; sourceTree = "<group>"; };
-		077189BB1B10DA53002BB490 /* electric_imp_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = electric_imp_logo.png; sourceTree = "<group>"; };
-		077189BC1B10DA53002BB490 /* flip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flip.png; sourceTree = "<group>"; };
-		077189BD1B10DA53002BB490 /* flowing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flowing.png; sourceTree = "<group>"; };
-		077189BE1B10DA53002BB490 /* happy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = happy.png; sourceTree = "<group>"; };
-		077189BF1B10DA53002BB490 /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
-		077189C01B10DA53002BB490 /* icons.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = icons.psd; sourceTree = "<group>"; };
-		077189C11B10DA53002BB490 /* loowit_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loowit_logo.png; sourceTree = "<group>"; };
-		077189C21B10DA53002BB490 /* not_flowing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = not_flowing.png; sourceTree = "<group>"; };
-		077189C31B10DA53002BB490 /* Resources.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = Resources.docx; sourceTree = "<group>"; };
-		077189C41B10DA53002BB490 /* sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sad.png; sourceTree = "<group>"; };
-		077189C61B10DA53002BB490 /* wunderbar_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wunderbar_logo.png; sourceTree = "<group>"; };
 		07718A2D1B10E957002BB490 /* Device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Device.h; sourceTree = "<group>"; };
 		07718A2E1B10E957002BB490 /* Device.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Device.m; sourceTree = "<group>"; };
 		07718A2F1B10E957002BB490 /* FFLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFLog.h; sourceTree = "<group>"; };
@@ -138,31 +106,9 @@
 		07718A5B1B10F141002BB490 /* NetworkAPIConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkAPIConstants.h; sourceTree = "<group>"; };
 		07718A5C1B10F191002BB490 /* prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prefix.pch; sourceTree = SOURCE_ROOT; };
 		07718A5E1B10F22D002BB490 /* AppHelpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppHelpers.h; sourceTree = "<group>"; };
-		07718A5F1B10F2E1002BB490 /* bartender_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bartender_blue.png; sourceTree = "<group>"; };
-		07718A601B10F2E1002BB490 /* boss_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boss_red.png; sourceTree = "<group>"; };
-		07718A611B10F2E1002BB490 /* loader_bar_five.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loader_bar_five.png; sourceTree = "<group>"; };
-		07718A621B10F2E1002BB490 /* loader_bar_four.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loader_bar_four.png; sourceTree = "<group>"; };
-		07718A631B10F2E1002BB490 /* loader_bar_one.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loader_bar_one.png; sourceTree = "<group>"; };
-		07718A641B10F2E1002BB490 /* loader_bar_three.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loader_bar_three.png; sourceTree = "<group>"; };
-		07718A651B10F2E1002BB490 /* loader_bar_two.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loader_bar_two.png; sourceTree = "<group>"; };
-		07718A661B10F2E1002BB490 /* loowit_logo_app.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loowit_logo_app.png; sourceTree = "<group>"; };
-		07718A671B10F2E1002BB490 /* pint0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pint0.png; sourceTree = "<group>"; };
-		07718A681B10F2E1002BB490 /* pint1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pint1.png; sourceTree = "<group>"; };
-		07718A691B10F2E1002BB490 /* pint2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pint2.png; sourceTree = "<group>"; };
-		07718A6A1B10F2E1002BB490 /* pint3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pint3.png; sourceTree = "<group>"; };
-		07718A6B1B10F2E1002BB490 /* pint4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pint4.png; sourceTree = "<group>"; };
-		07718A6C1B10F2E1002BB490 /* pint5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pint5.png; sourceTree = "<group>"; };
-		07718A7C1B10F2E9002BB490 /* app_icon_120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_120x120.png; sourceTree = "<group>"; };
-		07718A7D1B10F2E9002BB490 /* app_icon_152x152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_152x152.png; sourceTree = "<group>"; };
-		07718A7E1B10F2E9002BB490 /* app_icon_180x180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_180x180.png; sourceTree = "<group>"; };
-		07718A7F1B10F2E9002BB490 /* app_icon_76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_76x76.png; sourceTree = "<group>"; };
-		07CA95041B10F9B8004DCE5A /* header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header.png; sourceTree = "<group>"; };
 		07CA95061B10FB60004DCE5A /* Relayr.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Relayr.framework; sourceTree = SOURCE_ROOT; };
 		07CA950F1B111F3A004DCE5A /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = SOURCE_ROOT; };
 		07CA95101B111F3A004DCE5A /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = SOURCE_ROOT; };
-		07CA95131B112719004DCE5A /* electric_imp_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = electric_imp_logo.png; sourceTree = "<group>"; };
-		07CA95151B112C19004DCE5A /* simple_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = simple_logo.png; sourceTree = "<group>"; };
-		07CA95161B112C19004DCE5A /* uncorked_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uncorked_logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +132,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0715D5161B113EE000B5EA87 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				0715D5171B113EE000B5EA87 /* app_icon_120x120.png */,
+				0715D5181B113EE000B5EA87 /* app_icon_152x152.png */,
+				0715D5191B113EE000B5EA87 /* app_icon_180x180.png */,
+				0715D51A1B113EE000B5EA87 /* app_icon_76x76.png */,
+				0715D51B1B113EE000B5EA87 /* flip.png */,
+				0715D51C1B113EE000B5EA87 /* header.png */,
+				0715D51D1B113EE000B5EA87 /* loowit_logo.png */,
+				0715D51E1B113EE000B5EA87 /* pint4.png */,
+				0715D51F1B113EE000B5EA87 /* simple_logo.png */,
+				0715D5201B113EE000B5EA87 /* uncorked_logo.png */,
+				0715D52D1B1142CE00B5EA87 /* electric_imp_logo.png */,
+				0715D5211B113EE000B5EA87 /* wunderbar_logo.png */,
+			);
+			path = Assets;
+			sourceTree = SOURCE_ROOT;
+		};
 		0771897F1B10CCD3002BB490 = {
 			isa = PBXGroup;
 			children = (
@@ -217,8 +182,8 @@
 				077189951B10CCD4002BB490 /* Main.storyboard */,
 				077189981B10CCD4002BB490 /* Images.xcassets */,
 				0771899A1B10CCD4002BB490 /* LaunchScreen.xib */,
+				0715D5161B113EE000B5EA87 /* Assets */,
 				07718A1A1B10E957002BB490 /* Utilities */,
-				077189B31B10DA53002BB490 /* HACKATHON */,
 				0771898B1B10CCD4002BB490 /* Supporting Files */,
 			);
 			path = HackABeer;
@@ -234,50 +199,6 @@
 				0771898D1B10CCD4002BB490 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		077189B31B10DA53002BB490 /* HACKATHON */ = {
-			isa = PBXGroup;
-			children = (
-				07718A7B1B10F2E9002BB490 /* App_icons */,
-				077189B51B10DA53002BB490 /* alert.png */,
-				07CA95131B112719004DCE5A /* electric_imp_logo.png */,
-				07CA95041B10F9B8004DCE5A /* header.png */,
-				07CA95151B112C19004DCE5A /* simple_logo.png */,
-				07CA95161B112C19004DCE5A /* uncorked_logo.png */,
-				077189B61B10DA53002BB490 /* bartender.png */,
-				077189B71B10DA53002BB490 /* beer_keg.png */,
-				077189B81B10DA53002BB490 /* beer_tap.png */,
-				077189B91B10DA53002BB490 /* bell.png */,
-				077189BA1B10DA53002BB490 /* boss.png */,
-				077189BB1B10DA53002BB490 /* electric_imp_logo.png */,
-				077189BC1B10DA53002BB490 /* flip.png */,
-				077189BD1B10DA53002BB490 /* flowing.png */,
-				077189BE1B10DA53002BB490 /* happy.png */,
-				077189BF1B10DA53002BB490 /* Icon */,
-				077189C01B10DA53002BB490 /* icons.psd */,
-				077189C11B10DA53002BB490 /* loowit_logo.png */,
-				077189C21B10DA53002BB490 /* not_flowing.png */,
-				077189C31B10DA53002BB490 /* Resources.docx */,
-				077189C41B10DA53002BB490 /* sad.png */,
-				077189C61B10DA53002BB490 /* wunderbar_logo.png */,
-				07718A5F1B10F2E1002BB490 /* bartender_blue.png */,
-				07718A601B10F2E1002BB490 /* boss_red.png */,
-				07718A611B10F2E1002BB490 /* loader_bar_five.png */,
-				07718A621B10F2E1002BB490 /* loader_bar_four.png */,
-				07718A631B10F2E1002BB490 /* loader_bar_one.png */,
-				07718A641B10F2E1002BB490 /* loader_bar_three.png */,
-				07718A651B10F2E1002BB490 /* loader_bar_two.png */,
-				07718A661B10F2E1002BB490 /* loowit_logo_app.png */,
-				07718A671B10F2E1002BB490 /* pint0.png */,
-				07718A681B10F2E1002BB490 /* pint1.png */,
-				07718A691B10F2E1002BB490 /* pint2.png */,
-				07718A6A1B10F2E1002BB490 /* pint3.png */,
-				07718A6B1B10F2E1002BB490 /* pint4.png */,
-				07718A6C1B10F2E1002BB490 /* pint5.png */,
-			);
-			name = HACKATHON;
-			path = ../../../Dropbox/HACKATHON;
 			sourceTree = "<group>";
 		};
 		07718A1A1B10E957002BB490 /* Utilities */ = {
@@ -301,17 +222,6 @@
 				07718A441B10E957002BB490 /* UIView+brewmium.m */,
 			);
 			path = Utilities;
-			sourceTree = "<group>";
-		};
-		07718A7B1B10F2E9002BB490 /* App_icons */ = {
-			isa = PBXGroup;
-			children = (
-				07718A7C1B10F2E9002BB490 /* app_icon_120x120.png */,
-				07718A7D1B10F2E9002BB490 /* app_icon_152x152.png */,
-				07718A7E1B10F2E9002BB490 /* app_icon_180x180.png */,
-				07718A7F1B10F2E9002BB490 /* app_icon_76x76.png */,
-			);
-			path = App_icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -408,48 +318,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				077189CF1B10DA53002BB490 /* flip.png in Resources */,
-				07718A791B10F2E1002BB490 /* pint4.png in Resources */,
-				077189CE1B10DA53002BB490 /* electric_imp_logo.png in Resources */,
-				077189D41B10DA53002BB490 /* loowit_logo.png in Resources */,
-				07718A6D1B10F2E1002BB490 /* bartender_blue.png in Resources */,
-				077189D01B10DA53002BB490 /* flowing.png in Resources */,
-				07718A721B10F2E1002BB490 /* loader_bar_three.png in Resources */,
-				077189D51B10DA53002BB490 /* not_flowing.png in Resources */,
-				077189CD1B10DA53002BB490 /* boss.png in Resources */,
-				077189D71B10DA53002BB490 /* sad.png in Resources */,
-				07718A771B10F2E1002BB490 /* pint2.png in Resources */,
+				0715D52B1B113EE000B5EA87 /* uncorked_logo.png in Resources */,
+				0715D52A1B113EE000B5EA87 /* simple_logo.png in Resources */,
 				077189971B10CCD4002BB490 /* Main.storyboard in Resources */,
-				077189C91B10DA53002BB490 /* bartender.png in Resources */,
-				07718A801B10F2E9002BB490 /* app_icon_120x120.png in Resources */,
-				077189CA1B10DA53002BB490 /* beer_keg.png in Resources */,
-				077189D11B10DA53002BB490 /* happy.png in Resources */,
-				07CA95141B112719004DCE5A /* electric_imp_logo.png in Resources */,
-				07CA95171B112C19004DCE5A /* simple_logo.png in Resources */,
-				07718A731B10F2E1002BB490 /* loader_bar_two.png in Resources */,
-				077189C81B10DA53002BB490 /* alert.png in Resources */,
+				0715D5221B113EE000B5EA87 /* app_icon_120x120.png in Resources */,
+				0715D5281B113EE000B5EA87 /* loowit_logo.png in Resources */,
+				0715D5231B113EE000B5EA87 /* app_icon_152x152.png in Resources */,
+				0715D52E1B1142CE00B5EA87 /* electric_imp_logo.png in Resources */,
 				0771899C1B10CCD4002BB490 /* LaunchScreen.xib in Resources */,
-				077189D61B10DA53002BB490 /* Resources.docx in Resources */,
-				077189D21B10DA53002BB490 /* Icon in Resources */,
-				077189CC1B10DA53002BB490 /* bell.png in Resources */,
-				07718A781B10F2E1002BB490 /* pint3.png in Resources */,
-				077189D91B10DA53002BB490 /* wunderbar_logo.png in Resources */,
-				07718A6F1B10F2E1002BB490 /* loader_bar_five.png in Resources */,
-				07718A711B10F2E1002BB490 /* loader_bar_one.png in Resources */,
-				07718A6E1B10F2E1002BB490 /* boss_red.png in Resources */,
-				07718A751B10F2E1002BB490 /* pint0.png in Resources */,
 				077189991B10CCD4002BB490 /* Images.xcassets in Resources */,
-				077189D31B10DA53002BB490 /* icons.psd in Resources */,
-				07718A761B10F2E1002BB490 /* pint1.png in Resources */,
-				07718A741B10F2E1002BB490 /* loowit_logo_app.png in Resources */,
-				07718A701B10F2E1002BB490 /* loader_bar_four.png in Resources */,
-				07718A7A1B10F2E1002BB490 /* pint5.png in Resources */,
-				077189CB1B10DA53002BB490 /* beer_tap.png in Resources */,
-				07CA95181B112C19004DCE5A /* uncorked_logo.png in Resources */,
-				07718A811B10F2E9002BB490 /* app_icon_152x152.png in Resources */,
-				07CA95051B10F9B8004DCE5A /* header.png in Resources */,
-				07718A831B10F2E9002BB490 /* app_icon_76x76.png in Resources */,
-				07718A821B10F2E9002BB490 /* app_icon_180x180.png in Resources */,
+				0715D5251B113EE000B5EA87 /* app_icon_76x76.png in Resources */,
+				0715D5271B113EE000B5EA87 /* header.png in Resources */,
+				0715D5291B113EE000B5EA87 /* pint4.png in Resources */,
+				0715D5261B113EE000B5EA87 /* flip.png in Resources */,
+				0715D5241B113EE000B5EA87 /* app_icon_180x180.png in Resources */,
+				0715D52C1B113EE000B5EA87 /* wunderbar_logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
