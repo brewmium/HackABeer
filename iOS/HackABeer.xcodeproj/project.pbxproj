@@ -19,6 +19,7 @@
 		0715D52B1B113EE000B5EA87 /* uncorked_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0715D5201B113EE000B5EA87 /* uncorked_logo.png */; };
 		0715D52C1B113EE000B5EA87 /* wunderbar_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0715D5211B113EE000B5EA87 /* wunderbar_logo.png */; };
 		0715D52E1B1142CE00B5EA87 /* electric_imp_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0715D52D1B1142CE00B5EA87 /* electric_imp_logo.png */; };
+		0715D5301B114AA300B5EA87 /* pebble_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0715D52F1B114AA300B5EA87 /* pebble_logo.png */; };
 		0771898E1B10CCD4002BB490 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0771898D1B10CCD4002BB490 /* main.m */; };
 		077189911B10CCD4002BB490 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 077189901B10CCD4002BB490 /* AppDelegate.m */; };
 		077189941B10CCD4002BB490 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 077189931B10CCD4002BB490 /* ViewController.m */; };
@@ -75,6 +76,7 @@
 		0715D5201B113EE000B5EA87 /* uncorked_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uncorked_logo.png; sourceTree = "<group>"; };
 		0715D5211B113EE000B5EA87 /* wunderbar_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wunderbar_logo.png; sourceTree = "<group>"; };
 		0715D52D1B1142CE00B5EA87 /* electric_imp_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = electric_imp_logo.png; sourceTree = "<group>"; };
+		0715D52F1B114AA300B5EA87 /* pebble_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pebble_logo.png; sourceTree = "<group>"; };
 		077189881B10CCD4002BB490 /* HackABeer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackABeer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0771898C1B10CCD4002BB490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0771898D1B10CCD4002BB490 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				0715D51B1B113EE000B5EA87 /* flip.png */,
 				0715D51C1B113EE000B5EA87 /* header.png */,
 				0715D51D1B113EE000B5EA87 /* loowit_logo.png */,
+				0715D52F1B114AA300B5EA87 /* pebble_logo.png */,
 				0715D51E1B113EE000B5EA87 /* pint4.png */,
 				0715D51F1B113EE000B5EA87 /* simple_logo.png */,
 				0715D5201B113EE000B5EA87 /* uncorked_logo.png */,
@@ -330,6 +333,7 @@
 				0715D5251B113EE000B5EA87 /* app_icon_76x76.png in Resources */,
 				0715D5271B113EE000B5EA87 /* header.png in Resources */,
 				0715D5291B113EE000B5EA87 /* pint4.png in Resources */,
+				0715D5301B114AA300B5EA87 /* pebble_logo.png in Resources */,
 				0715D5261B113EE000B5EA87 /* flip.png in Resources */,
 				0715D5241B113EE000B5EA87 /* app_icon_180x180.png in Resources */,
 				0715D52C1B113EE000B5EA87 /* wunderbar_logo.png in Resources */,

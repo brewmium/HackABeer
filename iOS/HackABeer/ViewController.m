@@ -208,10 +208,10 @@ typedef NS_ENUM(NSInteger, DisplayRole) {
 	self.paleTemp.text = [NSString stringWithFormat:@"%.1f°",f];
 
 	NSInteger i = [[payload objectForKey:@"sinceIPA"] integerValue];
-	self.paleIdle.text = [self formatTime:i];
+	self.ipaIdle.text = [self formatTime:i];
 
 	i = [[payload objectForKey:@"sincePale"] integerValue];
-	self.ipaIdle.text = [self formatTime:i];
+	self.paleIdle.text = [self formatTime:i];
 }
 
 - (NSString *)formatTime:(NSInteger)seconds;
