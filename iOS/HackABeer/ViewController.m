@@ -152,7 +152,7 @@ typedef NS_ENUM(NSInteger, DisplayRole) {
 //					   
 //				   } else {
 //					   CGFloat f = [[payload objectForKey:@"temperature"] floatValue];
-//					   f = f * (9/5) + 32;
+//					   f = f * (9.0/5.0) + 32;
 //
 //					   self.paleTemp.text = [NSString stringWithFormat:@"%.1f°", f];
 ////					   FFLogAPI(@"network call: %@", payload);
@@ -191,6 +191,11 @@ typedef NS_ENUM(NSInteger, DisplayRole) {
 
 }
 
+- (CGFloat)c2f:(CGFloat)cel
+{
+	return (cel * (9.0/5.0)) + 32;
+}
+
 - (void)processPayload:(NSDictionary *)payload;
 {
 	self.ipaPulling.hidden = ![[payload objectForKey:@"pullIPA"] boolValue];
@@ -200,12 +205,10 @@ typedef NS_ENUM(NSInteger, DisplayRole) {
 	self.ipaPulls.text = [NSString stringWithFormat:@"%@", [payload objectForKey:@"countIPA"]];
 	
 	CGFloat f = [[payload objectForKey:@"tempIPA"] floatValue];
-	f = f * (9/5) + 32;
-	self.ipaTemp.text = [NSString stringWithFormat:@"%.1f°",f];
+	self.ipaTemp.text = [NSString stringWithFormat:@"%.1f°", [self c2f:f]];
 	
 	f = [[payload objectForKey:@"tempPale"] floatValue];
-	f = f * (9/5) + 32;
-	self.paleTemp.text = [NSString stringWithFormat:@"%.1f°",f];
+	self.paleTemp.text = [NSString stringWithFormat:@"%.1f°", [self c2f:f]];
 
 	NSInteger i = [[payload objectForKey:@"sinceIPA"] integerValue];
 	self.ipaIdle.text = [self formatTime:i];
